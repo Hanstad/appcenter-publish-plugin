@@ -8,7 +8,7 @@ Build script snippet for plugins DSL for Gradle 2.1 and later:
 ```kotlin
 
 plugins {
-  id "com.ins.gradle.plugin.android.appcenter-publish-plugin" version "1.1"
+  id "com.ins.gradle.plugin.android.appcenter-publish-plugin" version "1.2"
 }
 ```
 Build script snippet for use in older Gradle versions or where dynamic configuration is required:
@@ -20,7 +20,7 @@ buildscript {
     }
   }
   dependencies {
-    classpath "gradle.plugin.com.ins.gradle.plugin.android:appcenter-publish-plugin:1.1"
+    classpath "gradle.plugin.com.ins.gradle.plugin.android:appcenter-publish-plugin:1.2"
   }
 }
 
